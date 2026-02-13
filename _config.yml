@@ -19,12 +19,12 @@ description: >- # dont remove this line. this will ignore all new lines until th
 
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/avatar.jpeg
+profile_image: ./assets/images/profile-image/pp1.jpg
 
 
 # Link your resume
 # You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive 
-resume-url:  ./assets/resume/resume.pdf
+resume-url:  ./assets/resume/kraeresume.pdf
 
 
 # Set up external links - this will show up as small icons next to your name.
@@ -44,50 +44,40 @@ external-links:    # input only your own url slug. The icons with missing entrie
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  - category: 3D Modeling
+  - category: CAD/Design
     tools:
-    - Onshape
-    - Solidworks
+    - SolidWorks
     - Creo
+    - AutoCAD
     - Fusion 360 (Autodesk)
-    - Blender (for complex shapes or animations)
-    - Siemens NX
-    - Inventor (Autodesk)
-    - CATIA (Dassault Systèmes)
+    - GD&T ASME Y14
+    - DFM / DFA
+    - SolidWorks PDM
   - category: Prototyping
     tools:
-    - SLA
+    - 3D Printing (FMD, SLA)
     - CNC
-    - FDM
-    - SLS
-    - DMLS
-    - PolyJet Printing
-    - Vacuum Casting
-    - Laser Cutting
-    - Water Jet Cutting
-    - Arduino / Raspberry Pi
-    - Breadboarding for circuit testing
-  - category: Design Standards / Practices
+    - Laser Cutting  
+    - Waterject Cutting
+    - Soldering
+    - Welding / Fabricating
+    - Arduino / Raspberry Pi / ESP32 
+  - category: Analysis
     tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)   
-  - category: PCB Design
+    - MATLAB
+    - Simulink
+    - FEA 
+    - CFD
+  - category: Programming
     tools:
-    - Altium Designer
-    - Altium
-    - Eagle 
-    - KiCad
-  - category: Problem Solving / Risk Management
-    tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
+    - C++
+    - C
+    - C#
+    - Python
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
-formspree-key:   https://formspree.io/f/{8-digit key}
+formspree-key:   https://formspree.io/f/xaqdegqg
 
 
 
