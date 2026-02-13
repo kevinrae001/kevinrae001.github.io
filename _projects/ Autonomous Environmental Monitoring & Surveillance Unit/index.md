@@ -7,5 +7,5 @@ skills:
 - Sheet Metal Forming
 - SolidWorks
 - Prototyping
-main-image: /AEMS01.jpg
+main-image: /AEMS02.jpg
 ---
