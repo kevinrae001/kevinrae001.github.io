@@ -9,7 +9,7 @@ skills:
 - Prototyping
 - DFM/DFA
 - FEA
-main-image: /AEMS02.jpg
+main-image: /AEMS03.jpg
 ---
 
 ---
