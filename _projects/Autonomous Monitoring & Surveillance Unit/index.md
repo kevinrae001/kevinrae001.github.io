@@ -17,22 +17,29 @@ main-image: /AEMS03.jpg
 ---
 ## My role  
 I was the lead mechanical engineer on this project. I worked with the stakeholders to understand requirements and come up with solutions. I owned the SolidWorks models for all the assemblies and parts, and I drafted all the engineering drawings following ASME Y14 standards.
-I did not come up with the concepts for the opening bay doors or the solar panels on a telescoping mast, but I helped design them as the stakeholders requested.
-I designed a custom telescoping mast with three stages for the solar panels, which can extend to twice its original height, supports a 1.8 kW solar panel array in winds up to 80 km/h and can rotate 360 °and tilt 80° to track the sun.
-I ran FEA simulations on the walls, on the solar panel array and the mast that supports it, and on the skid to ensure sufficient safety factors. I designed the mechanisms of all the moving parts, including the 
+The concepts for the opening bay doors or the solar panels on a telescoping mast are not my own, but I designed them based on input from the stakeholders.
+I designed a custom telescoping mast with three stages for the solar panels, which can extend to twice its original height, supports a 1.8 kW solar panel array in winds up to 80 km/h and can rotate 360° and tilt 80° to track the sun.
+I ran FEA simulations on the walls, on the solar panel array and the mast that supports it, and on the skid to ensure sufficient safety factors. I did kinematic calculations for the opening bay doors, the solar array and the mast that supports it, and the drone deployment doors.
+I ran thermal simulations to optimize heat retention in the unit. 
 
-### Header 3 
-Use this to have subsection if needed
+## The station
+The station is designed to house cameras, drones, and sensors that monitor an outdoor space 24/7 all year round. The station runs on solar power and a backup diesel generator, so all parts had to be optimized for energy usage. The station is designed to operate in weather down to -40° C in remote locations of northern Canada. 
 
+## Challenges and solutions
+### Energy Optimization
+Whenever possible, moving parts were designed to avoid changing their potential energy across their range of motion. We wanted parts to move perpendicular to gravity and not against gravity.
+
+### Weatherproofing
+Using principles from automotive sunroofs, I designed the unit to 
+
+### Side walls
+The side walls were especially difficult to design. We made several smaller prototypes for the side walls and a full scale prototype. 
 
 ## Embedding images 
-### External images
-{% include image-gallery.html images="https://live.staticflickr.com/65535/52821641477_d397e56bc4_k.jpg, https://live.staticflickr.com/65535/52822650673_f074b20d90_k.jpg" height="400"%}
-<span style="font-size: 10px">"Starship Test Flight Mission" from https://www.flickr.com/photos/spacex/52821641477/</span>  
-You can put in multiple entries. All images will be at a fixed height in the same row. With smaller window, they will switch to columns.  
 
 ### Embeed images
-{% include image-gallery.html images="project2.jpg" height="400" %} 
+{% include image-gallery.html images="AEMS01.jpg" height="400" %} 
+{% include image-gallery.html images="AEMS04.jpg" height="400" %} 
 place the images in project folder/images then update the file path.   
 
 
