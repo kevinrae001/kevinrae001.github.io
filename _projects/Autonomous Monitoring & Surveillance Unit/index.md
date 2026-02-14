@@ -36,6 +36,7 @@ Using principles from automotive sunroofs, I designed the unit to
 The side walls were especially difficult to design. We made several smaller prototypes for the side walls and a full scale prototype. 
 
 {% include image-gallery.html images="AEMS01.jpg" height="400" %} 
+and
 {% include image-gallery.html images="AEMS04.jpg" height="400" %} 
 place the images in project folder/images then update the file path.   
 
