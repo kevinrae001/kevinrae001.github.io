@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Autonomous Environmental Monitoring & Surveillance Unit 
-description:  I led the mechanical design of a $1.4M station that uses drones, cameras, and sensors to monitor remote airstrips
+title: Autonomous Monitoring & Surveillance Unit
+description:  The unit is a fully autonomous, self-contained station that uses drones, cameras, and sensors to monitor remote airstrips for Transport Canada. (I did sign an NDA for this project so I'm limited in how much information I can present).
 skills: 
 - Structural analysis
 - Sheet Metal Forming
@@ -9,14 +9,18 @@ skills:
 - Prototyping
 - DFM/DFA
 - FEA
+- GD&T
+- Drawings
 main-image: /AEMS03.jpg
 ---
 
 ---
-# Autonomous Environmental Monitoring & Surveillance Unit  
-Used for the title (already generated automatically at the top)
-## Header 2  
-Use this for the header of each section
+## My role  
+I was the lead mechanical engineer on this project. I worked with the stakeholders to understand requirements and come up with solutions. I owned the SolidWorks models for all the assemblies and parts, and I drafted all the engineering drawings following ASME Y14 standards.
+I did not come up with the concepts for the opening bay doors or the solar panels on a telescoping mast, but I helped design them as the stakeholders requested.
+I designed a custom telescoping mast with three stages for the solar panels, which can extend to twice its original height, supports a 1.8 kW solar panel array in winds up to 80 km/h and can rotate 360 °and tilt 80° to track the sun.
+I ran FEA simulations on the walls, on the solar panel array and the mast that supports it, and on the skid to ensure sufficient safety factors. I designed the mechanisms of all the moving parts, including the 
+
 ### Header 3 
 Use this to have subsection if needed
 
