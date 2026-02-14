@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Autonomous Monitoring & Surveillance Unit
-description:  The unit is a fully autonomous, self-contained station that uses drones, cameras, and sensors to monitor remote airstrips for Transport Canada. (I did sign an NDA for this project so I'm limited in how much information I can present).
+description:  The unit is a fully autonomous, self-contained station that uses drones, cameras, and sensors to monitor remote airstrips for Transport Canada. (I signed an NDA for this project so I'm limited in how much information I can provide here)
 skills: 
 - Structural analysis
 - Sheet Metal Forming
@@ -38,11 +38,8 @@ The side walls were especially difficult to design. We made several smaller prot
 {% include image-gallery.html images="AEMS01.jpg" height="400" %} 
 and
 {% include image-gallery.html images="AEMS04.jpg" height="400" %} 
-place the images in project folder/images then update the file path.   
 
 
-## Embedding youtube video
-The second video has the autoplay on. copy and paste the 11-digit id found in the url link. <br>
 *Example* : https://www.youtube.com/watch?v={**MhVw-MHGv4s**}&ab_channel=engineerguy
 {% include youtube-video.html id="XpqmTLX5Jws" autoplay= "false"%}
 
