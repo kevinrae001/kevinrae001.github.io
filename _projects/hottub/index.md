@@ -1,6 +1,6 @@
 ---
 layout: post
-title: project title
+title: Renovated hot tub
 description:  short description of the project
 skills: 
 - skill 1
