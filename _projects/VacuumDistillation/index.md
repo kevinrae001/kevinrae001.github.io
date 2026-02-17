@@ -6,5 +6,5 @@ description:  short description of the project
 skills: 
 - skill 1
 - skill 2
-main-image: /VDU01.jpg
+main-image: VacDistillation1.jpg
 ---
