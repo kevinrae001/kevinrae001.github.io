@@ -1,9 +1,9 @@
 ---
 layout: post
-title: project title
+title: Integrated Thermal Hydronic System
 description:  short description of the project
 skills: 
-- skill 1
-- skill 2
+- Design
+- PFD / P&ID
 main-image: /project.webp 
 ---
