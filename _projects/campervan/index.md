@@ -1,6 +1,6 @@
 ---
 layout: post
-title: project title
+title: Camper Van
 description:  short description of the project
 skills: 
 - skill 1
