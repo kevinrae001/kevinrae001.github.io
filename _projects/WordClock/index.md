@@ -5,6 +5,6 @@ description:  I built a clock that tells the time in words. See github for code 
 skills: 
 - C
 - Arduino
-main-image: WC1.png
+main-image: /WC1.png
 ---
 
