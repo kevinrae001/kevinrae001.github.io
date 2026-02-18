@@ -3,8 +3,12 @@ layout: post
 title: Camper Van
 description:  A custom camper van built from a 1999 GMC Savanna 3500.
 skills: 
-- skill 1
-- skill 2
+- Mechanical Design
+- Electrical Design
+- CNC
+- Welding / Fabricating
+- Soldering
+- Woodworking
 main-image: /banner.jpg 
 ---
 
