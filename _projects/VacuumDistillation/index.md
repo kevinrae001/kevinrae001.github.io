@@ -3,7 +3,9 @@ layout: post
 title: Vacuum Distillation Unit
 description:  short description of the project
 skills: 
-- skill 1
-- skill 2
+- Hand calculations
+- Mechanical design
+- Welding / Fabricating
+- MATLAB
 main-image: /banner.jpg
 ---
