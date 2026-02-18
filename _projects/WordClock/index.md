@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Word Clock
-description:  I built a clock that tells the time in words. See github for the source code and detailed design.
+description:  Clock that tells the time in words.
 skills: 
 - C
 - C++
