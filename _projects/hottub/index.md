@@ -1,9 +1,16 @@
 ---
 layout: post
-title: Renovated hot tub
-description:  short description of the project
+title: Other projects
+description:  Various projects I've worked on over the years
 skills: 
-- skill 1
-- skill 2
+- SolidWorks
+- Fusion 360
+- 3D Printing
+- CNC
+- Laser Cutting
+- Waterjet Cutting
+- Soldering
+- Welding / Fabricating
+- Arduino / Rapberry Pi / ESP32
 main-image: /project.webp 
 ---
