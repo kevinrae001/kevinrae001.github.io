@@ -4,7 +4,11 @@ title: Word Clock
 description:  I built a clock that tells the time in words. See github for code and detailed design.
 skills: 
 - C
+- C++
 - Arduino
-main-image: /WC1.png
+- Soldering
+- Power Management
+- Maximizing chip usage
+main-image: /banner.png
 ---
 
