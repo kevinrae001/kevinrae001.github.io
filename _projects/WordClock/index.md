@@ -16,7 +16,7 @@ main-image: /banner.png
 ## The clock  
 The clock is a stripped down Arduino
 
-{% include image-gallery.html images="WC1.jpg" height="400" %} 
+{% include image-gallery.html images="WC1.png" height="400" %} 
 ## The station
 The station is designed to house cameras, drones, and sensors that monitor an outdoor space 24/7 all year round. The station runs on solar power and a backup diesel generator, so all parts had to be optimized for energy usage. The station is designed to operate in weather down to -40° C in remote locations of northern Canada. 
 
