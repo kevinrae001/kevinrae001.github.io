@@ -13,7 +13,7 @@ main-image: /banner.jpg
 ---
 {% include image-gallery.html images="Vac_dis_labels.png" height="1008" %} 
 and
-{% include image-gallery.html images="VacDistillation2.jpg" %} 
+{% include image-gallery.html images="VacDistillation2.jpg" height="1008" %} 
 and
 {% include image-gallery.html images="fenske.png" %} 
 
