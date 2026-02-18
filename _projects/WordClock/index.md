@@ -15,25 +15,25 @@ main-image: /banner.png
 ---
 ## The clock  
 The project goal was to create an elegant looking clock that tells the time in words. Based on similar designs I've seen, I wanted to avoid: light bleeding, untidy wiring, using too many chips, and high cost.
-{% include image-gallery.html images="WC1.png" height="400" %} 
+{% include image-gallery.html images="WC1.png" %} 
 The clock is a stripped down Arduino with just the atmega 328p microcontroller chip and the USB/serial interface. 
-{% include image-gallery.html images="circuit_board_front.jpg" height="400" %} 
+{% include image-gallery.html images="circuit_board_front.jpg" %} 
 and
-{% include image-gallery.html images="circuit_board_rear.jpg" height="400" %} 
+{% include image-gallery.html images="circuit_board_rear.jpg" %} 
 I used charlieplexing to maximize the LEDs per pin while maintaing 100% brightness.
-{% include image-gallery.html images="schematic1.png" height="400" %} 
+{% include image-gallery.html images="schematic1.png" %} 
 
 Some more images:
 Front display panel:
-{% include image-gallery.html images="display_panel_front.jpg" height="400" %} 
+{% include image-gallery.html images="display_panel_front.jpg" %} 
 Rear display panel:
-{% include image-gallery.html images="display_panel_rear.jpg" height="400" %} 
+{% include image-gallery.html images="display_panel_rear.jpg" %} 
 
 I added a light sensor so the brightness could automatically adjust:
-{% include image-gallery.html images="light_sensor.jpg" height="400" %} 
+{% include image-gallery.html images="light_sensor.jpg" %} 
 
 This is what the finished backside looked like:
-{% include image-gallery.html images="rear.jpg" height="400" %} 
+{% include image-gallery.html images="rear.jpg" %} 
 
 
 
