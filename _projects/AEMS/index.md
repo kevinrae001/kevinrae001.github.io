@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Autonomous Monitoring & Surveillance Unit
-description:  The unit is a fully autonomous, self-contained station that uses drones, cameras, and sensors to monitor remote airstrips for Transport Canada. (I signed an NDA for this project so I'm limited in how much information I can provide here)
+description:  Autonomous, self-contained station that uses drones, cameras, and sensors to monitor remote airstrips
 skills: 
 - Structural analysis
 - Sheet Metal Forming
@@ -15,7 +15,9 @@ main-image: /AEMS03.jpg
 ---
 
 ---
-## My role  
+## My role 
+(I signed an NDA for this project so I'm limited in how much information I can provide here).
+
 I was the lead mechanical engineer on this project. I worked with the stakeholders to understand requirements and come up with solutions. I owned the SolidWorks models for all the assemblies and parts, and I drafted all the engineering drawings following ASME Y14 standards.
 The concepts for the opening bay doors or the solar panels on a telescoping mast are not my own, but I designed them based on input from the stakeholders.
 I designed a custom telescoping mast with three stages for the solar panels, which can extend to twice its original height, supports a 1.8 kW solar panel array in winds up to 80 km/h and can rotate 360° and tilt 80° to track the sun.
