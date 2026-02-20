@@ -1,48 +1,74 @@
 ---
 layout: post
-title: Autonomous Monitoring & Surveillance Unit
-description:  Autonomous, self-contained station that uses drones, cameras, and sensors to monitor remote airstrips
-skills: 
-- Structural analysis
-- Sheet Metal Forming
-- SolidWorks
-- Prototyping
-- DFM/DFA
-- FEA
-- GD&T
-- Drawings
+title: "Autonomous Monitoring & Surveillance Unit (AEMS)"
+description: "Autonomous, self-contained station that uses drones, cameras, and sensors to monitor remote airstrips."
+skills:
+  - SolidWorks (multi-assembly system ownership)
+  - ASME Y14 drawings + GD&T
+  - Sheet metal DFM/DFA
+  - Structural analysis / FEA
+  - Mechanism design + kinematics
+  - Prototyping + field-test support
 main-image: /AEMS03.jpg
 ---
 
----
-{% include image-gallery.html images="AEMS01.jpg" height="400" %} 
-and
-{% include image-gallery.html images="AEMS04.jpg" height="400" %} 
-## My role 
-(I signed an NDA for this project so I'm limited in how much information I can provide here).
+![AEMS in the field (solar array deployed)](/_projects/AEMS/AEMS04.jpg)
 
-I was the lead mechanical engineer on this project. I worked with the stakeholders to understand requirements and come up with solutions. I owned the SolidWorks models for all the assemblies and parts, and I drafted all the engineering drawings following ASME Y14 standards.
-The concepts for the opening bay doors or the solar panels on a telescoping mast are not my own, but I designed them based on input from the stakeholders.
-I designed a custom telescoping mast with three stages for the solar panels, which can extend to twice its original height, supports a 1.8 kW solar panel array in winds up to 80 km/h and can rotate 360° and tilt 80° to track the sun.
-I ran FEA simulations on the walls, on the solar panel array and the mast that supports it, and on the skid to ensure sufficient safety factors. I did kinematic calculations for the opening bay doors, the solar array and the mast that supports it, and the drone deployment doors.
-I ran thermal simulations to optimize heat retention in the unit. 
+## My role (NDA)
+I was the lead mechanical engineer on this project. Because of an NDA, I’m limited in how much I can share publicly, but my scope included:
 
-## The station
-The station is designed to house cameras, drones, and sensors that monitor an outdoor space 24/7 all year round. The station runs on solar power and a backup diesel generator, so all parts had to be optimized for energy usage. The station is designed to operate in weather down to -40° C in remote locations of northern Canada. 
+- Turning stakeholder requirements into mechanical architectures and manufacturable designs
+- Owning the SolidWorks models for assemblies/parts and maintaining a coherent system layout
+- Producing engineering drawings to ASME Y14 standards (including GD&T where appropriate)
+- Supporting prototype builds, field testing, and iterative design improvements
 
-## Challenges and solutions
-### Energy Optimization
-Whenever possible, moving parts were designed to avoid changing their potential energy across their range of motion. We wanted parts to move perpendicular to gravity and not against gravity.
+## System overview
+The station is designed to operate unattended in remote locations and run 24/7 year-round. It houses cameras, drones, and sensors for continuous monitoring, and is powered primarily by solar with a backup diesel generator.
 
-### Weatherproofing
-Using principles from automotive sunroofs, I designed the unit to 
+Key constraints and design drivers:
 
-### Side walls
-The side walls were especially difficult to design. We made several smaller prototypes for the side walls and a full scale prototype. 
+- **Cold weather operation:** down to approximately **-40°C**
+- **Energy-limited environment:** minimize steady-state loads and avoid wasting energy on actuation
+- **Weatherproofing:** precipitation, freeze/thaw cycles, wind-driven snow/rain, and ingress protection
+- **Serviceability:** field access for maintenance, repairs, and component replacement
 
-{% include image-gallery.html images="AEMS01.jpg" height="400" %} 
-and
-{% include image-gallery.html images="AEMS04.jpg" height="400" %} 
+![AEMS deployed in snow](/_projects/AEMS/AEMS02.jpg)
 
+## Mechanical highlights (high-level)
+### Solar tracking mast + array
+- Custom **3-stage telescoping mast** (extends to roughly **2×** stowed height)
+- Supports a **~1.8 kW** solar array with high wind survivability (target **~80 km/h** winds)
+- Enables **360° rotation** and high tilt range (up to **~80°**) to support sun tracking
+- Structural checks performed on mast + array interfaces and supporting structure
 
-|
+### Doors, access panels, and mechanisms
+- Mechanism sizing and kinematic checks for major moving subsystems (doors/hatches and deployment interfaces)
+- Designed for reliable motion without fighting gravity whenever possible (reduce actuator power and failure modes)
+- Considered alignment tolerance, icing risk, and repeatability in field conditions
+
+### Weatherproofing strategy
+- Applied “automotive-style” sealing concepts where relevant:
+  - Overlapping joints / labyrinth paths to reduce direct ingress
+  - Controlled drainage paths for water management
+  - Seal placement selected to reduce snow/ice packing at critical interfaces
+- Side-wall geometry and interfaces required multiple iterations to balance manufacturability, stiffness, and sealing
+
+## Analysis and validation work
+At a high level, I supported validation with simulation-driven checks, including:
+- **FEA** on key structures (walls, array, mast support structure, skid/frame) to verify safety factors under expected loads
+- Structural sensitivity around attachment points, interfaces, and high-stress transitions
+- Thermal/heat-retention considerations to reduce generator runtime and improve winter performance (high level only)
+
+## Prototyping and iteration
+We built smaller prototypes for risk reduction and then progressed to full-scale prototype work. Iterations focused on:
+- Side-wall manufacturability and stiffness
+- Sealing performance and water management
+- Assembly sequence and service access
+- Fit-up and tolerance realities in fabrication
+
+![Close-up of station exterior + integrated hardware](/_projects/AEMS/AEMS01.jpg)
+
+## Photo gallery
+![AEMS in snow](/_projects/AEMS/AEMS03.jpg)
+
+![AEMS in the field (solar array deployed)](/_projects/AEMS/AEMS04.jpg)
