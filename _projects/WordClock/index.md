@@ -10,7 +10,7 @@ skills:
   - Soldering
   - Charlieplexing
   - Power Management
-main-image: /WC1.png
+main-image: /banner.png
 ---
 
 {% include image-gallery.html images="WC1.png" height="520" %}
