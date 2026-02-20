@@ -25,11 +25,11 @@ I converted this van into a camper van in 2019 and have had it since then. It is
 ---
 
 ## Exterior + Solar Setup
-{% include image-gallery.html images="solar_setup.jpg" width="50%" %} 
+![Van with roof-mounted solar](solar_setup.jpg)
 
 <p>
-  {% include image-gallery.html images="van_in_city.jpg" width="50%" %} 
-  {% include image-gallery.html images="port_side.jpg" width="50%" %} 
+  <img src="van_in_city.jpg" alt="Camper van in the city" width="49%">
+  <img src="port_side.jpg" alt="Port side view" width="49%">
 </p>
 
 <p>
