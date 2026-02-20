@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Camper Van
-description: A custom camper van built from a 1999 GMC Savana 3500.
+title: Camper Van Conversion (1999 GMC Savana 3500)
+description: A full camper conversion build: electrical, cabinetry, ventilation, solar, and modular seating/bed system.
 skills:
   - Mechanical Design
   - Electrical Design
@@ -9,94 +9,96 @@ skills:
   - Welding / Fabricating
   - Soldering
   - Woodworking
-main-image: /banner.jpg
+main-image: https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/banner.jpg
 ---
 
-I converted this van into a camper van in 2019 and have had it since then. It is still in excellent condition.
-
-![1999 GMC Savana 3500 camper van conversion](banner.jpg)
-
-## Highlights
-- Solar-powered electrical system for off-grid use
-- Built-in kitchen + fridge + storage
-- Convertible bed system that transforms into a dinette (and two-table mode)
-- High-utility storage under the bed platform
-- Added welded brackets to support a removable third middle seat
-- Roof ventilation fan for airflow
+I converted this van into a camper van in 2019 and have used it extensively since. The build focused on durability, serviceability, and modular interior functionality.
 
 ---
 
-## Exterior + Solar Setup
-![Van with roof-mounted solar](solar_setup.jpg)
+## Exterior + Solar
 
-<p>
-  <img src="van_in_city.jpg" alt="Camper van in the city" width="49%">
-  <img src="port_side.jpg" alt="Port side view" width="49%">
-</p>
+{% include image-gallery.html images="
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/van_in_city.jpg,
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/solar_setup.jpg
+" height="420" %}
 
-<p>
-  <img src="van_in_desert.jpg" alt="Camper van in the desert" width="49%">
-  <img src="van_in_forest.jpg" alt="Camper van in the forest" width="49%">
-</p>
-
----
-
-## Electrical System
-The electrical system was designed and built to support off-grid living (charging, distribution, and integration with the van conversion).
-
-![Electrical system](Electrical.jpg)
+{% include image-gallery.html images="
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/van_in_forest.jpg,
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/van_in_desert.jpg
+" height="420" %}
 
 ---
 
-## Interior Layout + Storage
-<p>
-  <img src="Inside.jpg" alt="Interior overview" width="49%">
-  <img src="Inside_back.jpg" alt="Interior from the back" width="49%">
-</p>
+## Interior Layout
 
-<p>
-  <img src="Kitchen.jpg" alt="Kitchen area" width="49%">
-  <img src="storage_and_fridge.jpg" alt="Storage and fridge" width="49%">
-</p>
+{% include image-gallery.html images="
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/front_inside_no_3rd_seat.jpg,
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/Inside.jpg
+" height="420" %}
 
-<p>
-  <img src="sliding_drawer.jpg" alt="Sliding drawer" width="49%">
-  <img src="empty_storage_space.jpg" alt="Empty storage space" width="49%">
-</p>
+{% include image-gallery.html images="
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/Inside_back.jpg,
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/Kitchen.jpg
+" height="420" %}
 
-<p>
-  <img src="under_bed_port.jpg" alt="Under-bed storage (port side)" width="49%">
-  <img src="under_bed_starboard.jpg" alt="Under-bed storage (starboard side)" width="49%">
-</p>
+---
+
+## Electrical System + Storage
+
+Electrical system packaging (batteries, charge controller, wiring management) is built for easy access and maintenance.
+
+{% include image-gallery.html images="
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/Electrical.jpg,
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/storage_and_fridge.jpg
+" height="420" %}
+
+{% include image-gallery.html images="
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/empty_storage_space.jpg
+" height="420" %}
 
 ---
 
 ## Ventilation
-![Roof fan](Fan.jpg)
+
+{% include image-gallery.html images="
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/Fan.jpg
+" height="420" %}
 
 ---
 
-## Seating Modification (Removable Third Middle Seat)
-I welded brackets that allowed for adding a third middle seat.
+## Seating + Convertible Bed/Table System
 
-<p>
-  <img src="front_inside_no_3rd_seat.jpg" alt="Front interior without third seat" width="49%">
-  <img src="middle_seat.jpg" alt="Installed middle seat" width="49%">
-</p>
+I welded brackets that allow adding a third middle seat:
+
+{% include image-gallery.html images="
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/middle_seat.jpg
+" height="420" %}
+
+The bed converts into a table + bench:
+
+{% include image-gallery.html images="
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/Table.jpg,
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/Tables.jpg
+" height="420" %}
 
 ---
 
-## Convertible Bed → Dinette
-Then the bed can be converted to a table and bench:
+## Under-Bed Storage + Slide-Out
 
-![Bed converted to table and bench](Table.jpg)
+{% include image-gallery.html images="
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/under_bed_port.jpg,
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/under_bed_starboard.jpg
+" height="420" %}
 
-Or two tables:
+{% include image-gallery.html images="
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/sliding_drawer.jpg
+" height="420" %}
 
-![Two-table configuration](Tables.jpg)
+---
 
+## Side Profile
 
-
-
-
-
+{% include image-gallery.html images="
+https://raw.githubusercontent.com/kevinrae001/kevinrae001.github.io/main/_projects/campervan/port_side.jpg
+" height="420" %}
