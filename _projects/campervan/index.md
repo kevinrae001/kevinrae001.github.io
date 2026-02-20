@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Campervan Conversion
-description: Engineering-first campervan build focused on reliability, serviceability, and clean packaging.
+description: Campervan build focused on reliability, serviceability, and clean packaging.
 skills:
   - Mechanical design
   - CAD (SolidWorks)
@@ -32,51 +32,6 @@ This project documents a campervan conversion build with an emphasis on robust m
 - **Packaging:** efficient use of volume, sensible cable routing, minimized rattles  
 - **Reliability:** vibration-aware design, robust joints, appropriate materials/finishes  
 - **Documentation:** BOM, wiring map, assembly notes, and revision-friendly structure
-
----
-
-## System overview
-
-### Mechanical / interior
-- [Bed/platform]
-- [Cabinetry / storage]
-- [Mounting strategy: rivnuts / plusnuts / brackets / rails]
-- [Noise/vibration mitigation: foam, isolation, threadlocker strategy]
-
-### Electrical (12V DC / shore / solar)
-- **Power sources:** [alternator / solar / shore]
-- **Storage:** [battery chemistry and capacity]
-- **Distribution:** [fuse block, breakers, bus bars]
-- **Loads:** [fridge, lights, fans, inverter, USB-C PD, etc.]
-- **Safety:** [main fuse location, cable gauge choices, protection, grounding approach]
-
-### Thermal / ventilation
-- [Insulation approach]
-- [Vent fan(s)]
-- [Heater (if applicable)]
-
-### Water (if applicable)
-- [fresh/grey tanks, pump, filtration]
-- [winterization/service access]
-
----
-
-## Engineering highlights
-
-- **Packaging trade-offs:** [what you optimized for, what you deliberately didn’t]
-- **Fastener/structure choices:** [why these materials, thicknesses, joints]
-- **Wiring practices:** [labeling, harnessing, service loops, routing rules]
-- **Design for maintenance:** [what comes apart first, how faults are isolated]
-
----
-
-## Testing and validation
-
-- [Shake/rattle check]
-- [Electrical load testing]
-- [Charging performance]
-- [Heat/vent performance]
-- [Road test notes + fixes]
 
 ---
 
