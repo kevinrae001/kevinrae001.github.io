@@ -1,94 +1,111 @@
 ---
 layout: post
-title: Camper Van
-description: A custom camper van built from a 1999 GMC Savana 3500.
+title: Campervan Conversion
+description: Engineering-first campervan build focused on reliability, serviceability, and clean packaging.
 skills:
-  - Mechanical Design
-  - Electrical Design
-  - CNC
-  - Welding / Fabricating
+  - Mechanical design
+  - CAD (SolidWorks)
+  - Fabrication & assembly
+  - Electrical (48V DC) wiring
   - Soldering
+  - CNC
   - Woodworking
 main-image: /banner.jpg
 ---
 
-I converted this van into a camper van in 2019 and have had it since then. It is still in excellent condition.
+## Summary
 
-## Highlights
-- Solar-powered electrical system for off-grid use
-- Built-in kitchen + fridge + storage
-- Convertible bed system that transforms into a dinette (and two-table mode)
-- High-utility storage under the bed platform
-- Added welded brackets to support a removable third middle seat
-- Roof ventilation fan for airflow
+This project documents a campervan conversion build with an emphasis on robust mechanical design, clean integration, and practical service access.
 
----
-
-## Exterior + Solar Setup
-![Van with roof-mounted solar](solar_setup.jpg)
-
-<p>
-  <img src="van_in_city.jpg" alt="Camper van in the city" width="49%">
-  <img src="port_side.jpg" alt="Port side view" width="49%">
-</p>
-
-<p>
-  <img src="van_in_desert.jpg" alt="Camper van in the desert" width="49%">
-  <img src="van_in_forest.jpg" alt="Camper van in the forest" width="49%">
-</p>
+**Quick facts :**
+- **Vehicle:** 1999 GMC Savana 3500 extended
+- **Use case:** Long trips (several months)
+- **Constraints:** Budget, off-grid duration, winter use
+- **Tools/process:** CAD, CNC cutting, soldering, electrical design, hands-on building
 
 ---
 
-## Electrical System
-The electrical system was designed and built to support off-grid living (charging, distribution, and integration with the van conversion).
+## Goals and requirements
 
-![Electrical system](Electrical.jpg)
-
----
-
-## Interior Layout + Storage
-<p>
-  <img src="Inside.jpg" alt="Interior overview" width="49%">
-  <img src="Inside_back.jpg" alt="Interior from the back" width="49%">
-</p>
-
-<p>
-  <img src="Kitchen.jpg" alt="Kitchen area" width="49%">
-  <img src="storage_and_fridge.jpg" alt="Storage and fridge" width="49%">
-</p>
-
-<p>
-  <img src="sliding_drawer.jpg" alt="Sliding drawer" width="49%">
-  <img src="empty_storage_space.jpg" alt="Empty storage space" width="49%">
-</p>
-
-<p>
-  <img src="under_bed_port.jpg" alt="Under-bed storage (port side)" width="49%">
-  <img src="under_bed_starboard.jpg" alt="Under-bed storage (starboard side)" width="49%">
-</p>
+- **Safety:** secure mounting, protected wiring, proper fusing, strain relief, and ventilation where required  
+- **Serviceability:** accessible fasteners, removable panels, modular subassemblies  
+- **Packaging:** efficient use of volume, sensible cable routing, minimized rattles  
+- **Reliability:** vibration-aware design, robust joints, appropriate materials/finishes  
+- **Documentation:** BOM, wiring map, assembly notes, and revision-friendly structure
 
 ---
 
-## Ventilation
-![Roof fan](Fan.jpg)
+## System overview
+
+### Mechanical / interior
+- [Bed/platform]
+- [Cabinetry / storage]
+- [Mounting strategy: rivnuts / plusnuts / brackets / rails]
+- [Noise/vibration mitigation: foam, isolation, threadlocker strategy]
+
+### Electrical (12V DC / shore / solar)
+- **Power sources:** [alternator / solar / shore]
+- **Storage:** [battery chemistry and capacity]
+- **Distribution:** [fuse block, breakers, bus bars]
+- **Loads:** [fridge, lights, fans, inverter, USB-C PD, etc.]
+- **Safety:** [main fuse location, cable gauge choices, protection, grounding approach]
+
+### Thermal / ventilation
+- [Insulation approach]
+- [Vent fan(s)]
+- [Heater (if applicable)]
+
+### Water (if applicable)
+- [fresh/grey tanks, pump, filtration]
+- [winterization/service access]
 
 ---
 
-## Seating Modification (Removable Third Middle Seat)
-I welded brackets that allowed for adding a third middle seat.
+## Engineering highlights
 
-<p>
-  <img src="front_inside_no_3rd_seat.jpg" alt="Front interior without third seat" width="49%">
-  <img src="middle_seat.jpg" alt="Installed middle seat" width="49%">
-</p>
+- **Packaging trade-offs:** [what you optimized for, what you deliberately didn’t]
+- **Fastener/structure choices:** [why these materials, thicknesses, joints]
+- **Wiring practices:** [labeling, harnessing, service loops, routing rules]
+- **Design for maintenance:** [what comes apart first, how faults are isolated]
 
 ---
 
-## Convertible Bed → Dinette
-Then the bed can be converted to a table and bench:
+## Testing and validation
 
-![Bed converted to table and bench](Table.jpg)
+- [Shake/rattle check]
+- [Electrical load testing]
+- [Charging performance]
+- [Heat/vent performance]
+- [Road test notes + fixes]
 
-Or two tables:
+---
 
-![Two-table configuration](Tables.jpg)
+## Build gallery
+
+The block below automatically renders **all images in this project folder** (png/jpg/jpeg/webp/gif).  
+If you don’t want an image to show, move it out of the folder or rename it with a prefix like `_ignore-`.
+
+{% assign parts = page.path | split:'/' %}
+{% assign project_dir = '/' | append: parts[0] | append:'/' | append: parts[1] | append:'/' %}
+{% assign exts = ".png,.jpg,.jpeg,.webp,.gif" | split: "," %}
+{% assign files = site.static_files | where_exp: "f", "f.path contains project_dir" | sort: "path" %}
+
+<div class="project-gallery">
+  {% for f in files %}
+    {% if exts contains f.extname %}
+      <figure style="margin: 0 0 1rem 0;">
+        <img
+          src="{{ f.path | relative_url }}"
+          alt="{{ page.title }} image {{ forloop.index }}"
+          loading="lazy"
+          style="max-width: 100%; height: auto;"
+        >
+        <figcaption style="font-size: 0.9em; opacity: 0.8;">
+          {{ f.name }}
+        </figcaption>
+      </figure>
+    {% endif %}
+  {% endfor %}
+</div>
+
+---
