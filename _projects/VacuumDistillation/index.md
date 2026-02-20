@@ -13,13 +13,11 @@ skills:
   - Fabrication support (welding / assembly)
   - Test & commissioning
   - MATLAB
-main-image: /_projects/VacuumDistillation/banner.jpg
+main-image: /banner.jpg
 ---
 
 {% assign project_folder = page.path | split: "/" | slice: 0, 2 | join: "/" %}
 {% assign img = "/" | append: project_folder | append: "/" | relative_url %}
-
-![Vacuum distillation unit (installed)]({{ img }}banner.jpg)
 
 ## Summary
 This project was a full build of a vacuum distillation system intended to lower boiling temperatures and protect product quality by operating under reduced pressure. I owned the end-to-end mechanical design, supported fabrication/assembly, and brought the unit through commissioning in a working industrial environment.
