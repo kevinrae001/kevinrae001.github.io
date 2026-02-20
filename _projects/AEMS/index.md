@@ -30,6 +30,8 @@ I was the lead mechanical engineer on this project. Because of an NDA, I’m lim
 
 The station is designed to operate unattended in remote locations and run 24/7 year-round. It houses cameras, drones, and sensors for continuous monitoring, and is powered primarily by solar with a backup diesel generator.
 
+{% include youtube-video.html id="XpqmTLX5Jws" autoplay= "false"%}
+
 Key constraints and design drivers:
 
 - **Cold weather operation:** down to approximately **-40°C**
