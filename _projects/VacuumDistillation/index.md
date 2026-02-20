@@ -71,4 +71,3 @@ This project was a full build of a vacuum distillation system intended to lower 
 - Designing for cleaning/draining early saves major rework later.
 
 ---
-*Images shown are from the build and the project folder: `banner.jpg`, `Vac_dis_labels.png`, `VacDistillation2.jpg`, and `fenske.png`.*
