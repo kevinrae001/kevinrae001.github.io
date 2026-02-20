@@ -1,8 +1,10 @@
 ---
 layout: post
-title: Vacuum Distillation Unit
+title: "Vacuum Distillation Unit"
 description: >
-  Designed and built a vacuum distillation unit (kettle + column + condenser/receiver loop) to separate temperature-sensitive liquids under reduced pressure, taking the system from process sizing through mechanical design, fabrication support, and commissioning.
+  Designed and built a vacuum distillation unit (kettle + column + condenser/receiver loop) to separate
+  temperature-sensitive liquids under reduced pressure—taking the system from process sizing through
+  mechanical design, fabrication support, and commissioning.
 skills:
   - Mechanical design (SolidWorks)
   - ASME Y14 / GD&T
@@ -11,17 +13,21 @@ skills:
   - Fabrication support (welding / assembly)
   - Test & commissioning
   - MATLAB
-main-image: /banner.jpg
+main-image: /_projects/VacuumDistillation/banner.jpg
 ---
 
 {% assign project_folder = page.path | split: "/" | slice: 0, 2 | join: "/" %}
-{% assign img = "/" | append: project_folder | append: "/" %}
+{% assign img = "/" | append: project_folder | append: "/" | relative_url %}
 
 ![Vacuum distillation unit (installed)]({{ img }}banner.jpg)
 
 ## Summary
-
 This project was a full build of a vacuum distillation system intended to lower boiling temperatures and protect product quality by operating under reduced pressure. I owned the end-to-end mechanical design, supported fabrication/assembly, and brought the unit through commissioning in a working industrial environment.
+
+**Core outcomes**
+- Reduced boiling temperature via vacuum operation to protect temperature-sensitive product
+- Built a serviceable, stable mechanical assembly (alignment, access, routing, drainability)
+- Communicated process intent clearly (schematics + labeled build) to align stakeholders
 
 ## System overview
 
@@ -41,33 +47,29 @@ This project was a full build of a vacuum distillation system intended to lower 
 ## Design approach
 
 ### 1) Process sizing (vacuum distillation fundamentals)
-- Defined the operating pressure range and temperature targets to achieve separation at reduced boiling temperature.
-- Estimated condenser duty and cooling requirements from mass/energy balance assumptions.
-- Considered operability constraints (startup, steady operation, shutdown, draining/cleaning).
+- Defined the operating pressure range and temperature targets to achieve separation at reduced boiling temperature
+- Estimated condenser duty and cooling requirements from mass/energy balance assumptions
+- Considered operability constraints (startup, steady operation, shutdown, draining/cleaning)
 
 ### 2) Column design (stage estimation)
-- Used the **Fenske equation** as an initial sizing tool to estimate theoretical stage requirements and guide column configuration decisions.
-- Translating stage requirements into a practical column build (packing/plates, height, mounting, insulation, serviceability).
+- Used the **Fenske equation** as an initial sizing tool to estimate theoretical stage requirements and guide column configuration decisions
+- Translated stage requirements into a practical column build (packing/plates, height, mounting, insulation, serviceability)
 
 ![Distillation schematic (context for column sizing)]({{ img }}fenske.png)
 *Reference schematic used to communicate column concepts and flow paths.*
 
 ### 3) Mechanical design and buildability
-- Structured the assembly for shop fabrication and field integration (mounting strategy, access points, and routing).
-- Designed the frame and supports to keep the column aligned and stable while allowing safe access for operators.
-- Incorporated practical maintenance needs: cleaning access, drainability, and component replacement considerations.
+- Structured the assembly for shop fabrication and field integration (mounting strategy, access points, and routing)
+- Designed the frame and supports to keep the column aligned and stable while allowing safe operator access
+- Built in maintenance needs: cleaning access, drainability, and component replacement considerations
 
 ## What I delivered
-
 - 3D CAD assembly and key part models
 - Detailed drawing package for fabrication and assembly
 - Bill of materials (BOM) and build notes
 - Commissioning support (fit-up, alignment, leak checks, and operational shakedown)
 
 ## Notes / lessons learned
-
-- Vacuum systems reward obsessive attention to sealing, routing, and service access.
-- Structural stiffness and alignment matter more than they look like they should—especially with tall columns.
-- Designing for cleaning/draining early saves major rework later.
-
----
+- Vacuum systems reward obsessive attention to sealing, routing, and service access
+- Structural stiffness and alignment matter more than they look like they should—especially with tall columns
+- Designing for cleaning/draining early saves major rework later
