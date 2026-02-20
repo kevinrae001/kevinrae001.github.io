@@ -58,4 +58,4 @@ Final internal layout (including the controller module and power setup):
 
 ### Links
 
-- Code / firmware (if applicable): https://github.com/kevinrae001/Word_clock
+- Code / firmware: https://github.com/kevinrae001/Word_clock
