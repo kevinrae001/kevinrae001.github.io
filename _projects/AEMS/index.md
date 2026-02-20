@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Autonomous Monitoring & Surveillance Unit (AEMS)"
+title: "Autonomous Monitoring & Surveillance Unit"
 description: "Autonomous, self-contained station that uses drones, cameras, and sensors to monitor remote airstrips."
 skills:
   - SolidWorks (system-level ownership)
