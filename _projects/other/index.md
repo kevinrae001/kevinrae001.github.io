@@ -15,39 +15,36 @@ skills:
 main-image: /two_speed_manual_transmission.png
 ---
 
-{% assign folder_path = page.path | split: "/" | slice: 0, 2 | join: "/" %}
-{% assign files_in_folder = site.static_files | where_exp: "f", "f.path contains folder_path" | sort: "name" %}
+## Image gallery
 
 <style>
-  .img-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 12px 0 18px; }
-  .img-grid a { display:block; }
-  .img-grid img { width: 100%; height: 220px; object-fit: cover; border-radius: 10px; border: 1px solid #ddd; }
-  .note { font-size: 0.95em; color: #555; }
+  .proj-gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; margin: 12px 0 4px; }
+  .proj-gallery a { display:block; border:1px solid rgba(0,0,0,0.12); border-radius:10px; overflow:hidden; }
+  .proj-gallery img { width:100%; height:180px; object-fit:cover; display:block; }
+  .proj-gallery .cap { padding:8px 10px; font-size:0.9rem; opacity:0.85; }
 </style>
 
-This page collects smaller builds, repairs, and prototypes that don’t need a full standalone writeup.
+{% assign exts = ".png|.jpg|.jpeg|.gif|.webp|.avif" | split: "|" %}
+{% assign images = site.static_files
+  | where_exp: "f", "f.path contains project_folder"
+  | where_exp: "f", "exts contains f.extname"
+  | sort: "name"
+%}
 
-## Hot tub repair + BBQ heat exchanger
-I bought a broken hot tub and swapped out the heating system. Water was pumped from the tub through copper coils inside a barbeque to heat it. Built with two friends.
-
-- Focus: practical repair, plumbing, heat transfer, and iteration in the real world
-- Outcome: a working hot tub with a simple external heating approach
-
-{% assign count = 0 %}
-<div class="img-grid">
-{% for f in files_in_folder %}
-  {% assign n = f.name | downcase %}
-  {% assign ext = f.extname | downcase %}
-  {% if ext == '.png' or ext == '.jpg' or ext == '.jpeg' or ext == '.webp' or ext == '.gif' %}
-    {% if n contains 'hottub' or n contains 'hot_tub' or n contains 'hot-tub' or n contains 'spa' or n contains 'bbq' or n contains 'coil' or n contains 'heater' %}
-      {% assign count = count | plus: 1 %}
-      <a href="{{ f.path | relative_url }}"><img src="{{ f.path | relative_url }}" alt="{{ f.name }}"></a>
-    {% endif %}
-  {% endif %}
-{% endfor %}
+{% if images.size > 0 %}
+<div class="proj-gallery">
+  {% for f in images %}
+    {% unless f.name == "ISTS_panoramic.jpeg" %}
+      {% assign alt = f.name | split: "." | first | replace: "_", " " | replace: "-", " " %}
+      <a href="{{ f.path | relative_url }}" target="_blank" rel="noopener">
+        <img src="{{ f.path | relative_url }}" alt="{{ alt }}" loading="lazy">
+        <div class="cap">{{ alt }}</div>
+      </a>
+    {% endunless %}
+  {% endfor %}
 </div>
-{% if count == 0 %}
-<p class="note">No images matched this section. If you want auto-grouping to work, include “hottub”, “spa”, “bbq”, “coil”, or “heater” in the filenames.</p>
+{% else %}
+_No images detected in this folder. Put images (png/jpg/jpeg/webp/avif) directly in `_projects/ITHS/` and they’ll show up here automatically._
 {% endif %}
 
 ## Backyard climbing wall (32 ft)
