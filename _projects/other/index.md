@@ -19,106 +19,78 @@ layout: default
 title: Image Gallery
 ---
 
+## Overview
+
+This page is a running collection of smaller builds, mechanisms, prototypes, and one-off experiments that don’t warrant their own full project page.
+
+## Highlight: Two-speed manual transmission prototype
+
+![Two-speed manual transmission prototype]({{ site.baseurl }}/_projects/other/two_speed_manual_transmission.png)
+
+- Two-speed geartrain prototype built for hands-on validation (packaging, alignment, gearing, and real-world fit-up).
+- Test setup shown with motor input and wheel output to prove function before any further iteration.
+
+---
+
+## Gallery (auto-populated from this folder)
+
+The gallery below automatically finds and displays **all images inside** `/_projects/other/` (and any subfolders).  
+To add photos/renders later, just drop new `.png/.jpg/.jpeg/.gif/.webp` files into this folder—no page edits required.
+
+{% assign images = site.static_files
+  | where_exp: "f", "f.path contains '/_projects/other/'"
+  | where_exp: "f", "f.extname == '.png' or f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.gif' or f.extname == '.webp'"
+  | sort: "path"
+%}
+
+{% if images.size > 0 %}
+
+<div class="gallery-grid">
+  {% for img in images %}
+    {% assign caption = img.name
+      | split: '.'
+      | first
+      | replace: '_', ' '
+      | replace: '-', ' '
+    %}
+    <figure class="gallery-item">
+      <a href="{{ site.baseurl }}{{ img.path }}">
+        <img src="{{ site.baseurl }}{{ img.path }}" alt="{{ caption | escape }}">
+      </a>
+      <figcaption class="caption">{{ caption }}</figcaption>
+    </figure>
+  {% endfor %}
+</div>
+
 <style>
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    gap: 12px;
-    margin: 12px 0 24px;
+  .gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:14px;
+    margin-top:10px;
   }
-  .thumb {
-    margin: 0;
-    border: 1px solid rgba(0,0,0,.12);
-    border-radius: 10px;
-    padding: 10px;
-    background: rgba(0,0,0,.02);
+  .gallery-item{
+    margin:0;
+    padding:10px;
+    border:1px solid rgba(0,0,0,0.12);
+    border-radius:10px;
+    background: rgba(0,0,0,0.02);
   }
-  .thumb img {
-    width: 100%;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 8px;
-    display: block;
+  .gallery-item img{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:8px;
   }
-  .thumb figcaption {
-    margin-top: 8px;
-    font-size: 0.9rem;
-    opacity: 0.85;
-    word-break: break-word;
+  .caption{
+    margin-top:8px;
+    font-size:0.9rem;
+    opacity:0.8;
   }
-  .folder-title { margin-top: 28px; }
 </style>
 
-# {{ page.title }}
-
-{% assign exts = "jpg,jpeg,png,gif,webp,svg" | split: "," %}
-{% assign base_dir = page.dir %}
-
-{%- comment -%}
-Collect unique subdirectories (relative to this page's folder).
-We represent the page folder itself as "."
-{%- endcomment -%}
-{% capture dirs_raw %}
-{% for f in site.static_files %}
-  {% if f.path contains base_dir %}
-    {% assign ext = f.extname | downcase | remove: "." %}
-    {% if exts contains ext %}
-      {% assign rel_dir = f.path | remove_first: base_dir | remove: f.name %}
-      {% if rel_dir == "" %}{% assign rel_dir = "." %}{% endif %}
-      {{ rel_dir }}|
-    {% endif %}
-  {% endif %}
-{% endfor %}
-{% endcapture %}
-
-{% assign dirs = dirs_raw | split: "|" | uniq | sort %}
-{% assign total_images = 0 %}
-
-{%- comment -%}Count total images{%- endcomment -%}
-{% for f in site.static_files %}
-  {% if f.path contains base_dir %}
-    {% assign ext = f.extname | downcase | remove: "." %}
-    {% if exts contains ext %}
-      {% assign total_images = total_images | plus: 1 %}
-    {% endif %}
-  {% endif %}
-{% endfor %}
-
-{% if total_images == 0 %}
-No images found under `{{ base_dir }}`.
 {% else %}
-Found **{{ total_images }}** image(s) under `{{ base_dir }}` (including subfolders).
 
-{% for d in dirs %}
-  {% if d != "" %}
-    <h2 class="folder-title">
-      {% if d == "." %}
-        Folder: (root)
-      {% else %}
-        Folder: {{ d }}
-      {% endif %}
-    </h2>
+_No images found in `/_projects/other/` yet._
 
-    <div class="gallery">
-      {% for f in site.static_files %}
-        {% if f.path contains base_dir %}
-          {% assign ext = f.extname | downcase | remove: "." %}
-          {% if exts contains ext %}
-            {% assign rel_dir = f.path | remove_first: base_dir | remove: f.name %}
-            {% if rel_dir == "" %}{% assign rel_dir = "." %}{% endif %}
-
-            {% if rel_dir == d %}
-              <figure class="thumb">
-                <a href="{{ f.path | relative_url }}" target="_blank" rel="noopener">
-                  <img src="{{ f.path | relative_url }}" alt="{{ f.basename | escape }}" loading="lazy">
-                </a>
-                <figcaption>{{ f.name }}</figcaption>
-              </figure>
-            {% endif %}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </div>
-  {% endif %}
-{% endfor %}
 {% endif %}
