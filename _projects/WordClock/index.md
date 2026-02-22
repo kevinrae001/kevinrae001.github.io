@@ -17,7 +17,7 @@ main-image: /banner.png
 
 ## The build
 
-The goal was to build an **elegant, readable word clock** while avoiding common DIY pitfalls:
+The goal was to build an elegant, readable word clock while avoiding common pitfalls:
 
 - **Light bleeding** between words
 - **Messy wiring** and bulky electronics
@@ -26,9 +26,9 @@ The goal was to build an **elegant, readable word clock** while avoiding common 
 
 ## How it works
 
-At its core, this is a stripped-down Arduino design: **just the ATmega328P** (DIP package) with a **USB/serial interface** for programming, and a **quartz crystal + trim capacitor** for timekeeping.
+At its core, this is a stripped-down Arduino design: just the ATmega328P (DIP package) with a USB/serial interface for programming, and a quartz crystal + trim capacitor for timekeeping.
 
-The display is driven with **charlieplexing** to maximize the number of LEDs per pin while keeping **100% brightness** (no multiplex dimming).
+The display is driven with charlieplexing to maximize the number of LEDs per pin while keeping 100% brightness (no multiplex dimming).
 
 {% include image-gallery.html images="circuit_board_front.jpg, circuit_board_rear.JPG" height="380" %}
 
@@ -40,11 +40,11 @@ Charlieplexing lets you drive many LEDs with fewer pins by exploiting tri-state 
 
 ## Display panel and light control
 
-To prevent light bleed and keep the face clean, the display uses a **segmented/baffled panel** to isolate each word area.
+To prevent light bleed and keep the face clean, the display uses a segmented/baffled panel to isolate each word area.
 
 {% include image-gallery.html images="display_panel_front.JPG, display_panel_rear.JPG" height="420" %}
 
-A **photoresistor** on the frame enables **automatic brightness adjustment** based on ambient light.
+A photoresistor on the frame enables automatic brightness adjustment based on ambient light.
 
 {% include image-gallery.html images="light_sensor.JPG" height="420" %}
 
