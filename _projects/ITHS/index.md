@@ -19,22 +19,22 @@ main-image: /ISTS_panoramic.jpeg
 ![ITHS panoramic view]({{ asset_base | append: "ISTS_panoramic.jpeg" | relative_url }})
 
 ## Overview
-I supported a UBC research project by building an operational **integrated thermal hydronic system** test setup that enabled repeatable experiments for **model characterization** and **validation**.
+I supported a UBC research project by building an operational integrated thermal hydronic system test setup that enabled repeatable experiments for model characterization and validation.
 
-At a high level, the system consists of **three hydronic loops** that interact through a **thermal storage tank**, with a solar-thermal subsystem and a heat pump involved in the overall energy flow.
+At a high level, the system consists of three hydronic loops that interact through a thermal storage tank, with a solar-thermal subsystem and a heat pump involved in the overall energy flow.
 
 ## My role
 I owned the hands-on engineering work to get the rig operational and useful for research, including:
 - Building and commissioning the physical test setup for repeatable data collection
-- Working with graduate students on **nonlinear, physics-based, state-space** modeling in **MATLAB/Simulink**
+- Working with graduate students on nonlinear, physics-based, state-space modeling in MATLAB/Simulink
 - Instrumentation selection, installation, calibration, and DAQ bring-up
 - Troubleshooting and repair to restore expected performance
 
 ## Key contributions
 ### Solar thermal array mechanical + controls work
-- Designed and implemented an operational **bearing/support solution** to enable array rotation
+- Designed and implemented an operational bearing/support solution to enable array rotation
 - Programmed a motor control approach to:
-  - **Track the sun throughout the day**, and/or
+  - Track the sun throughout the day, and/or
   - Rotate on demand for test sequences
 
 ### Instrumentation + data acquisition
@@ -43,11 +43,11 @@ I owned the hands-on engineering work to get the rig operational and useful for 
   - Temperature sensors
   - Solar radiation sensors
   - Humidity sensors
-- Integrated and calibrated **analog-to-digital conversion** hardware as required to support the sensor suite
+- Integrated and calibrated analog-to-digital conversion hardware as required to support the sensor suite
 
 ### Heat pump troubleshooting + repair
-- Diagnosed reduced performance to a **refrigerant leak**
-- Restored operation by repairing the issue and **recharging refrigerant** to bring performance back up
+- Diagnosed reduced performance to a refrigerant leak
+- Restored operation by repairing the issue and recharging refrigerant to bring performance back up
 
 ## Tools used
 - **CAD:** SolidWorks  
@@ -58,7 +58,6 @@ I owned the hands-on engineering work to get the rig operational and useful for 
 ---
 
 ## Image gallery
-This section auto-loads every image in this project folder (so you don’t have to manually maintain a list).
 
 <style>
   .proj-gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; margin: 12px 0 4px; }
