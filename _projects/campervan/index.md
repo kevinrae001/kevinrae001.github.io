@@ -37,9 +37,6 @@ This project documents a campervan conversion build with an emphasis on robust m
 
 ## Build gallery
 
-The block below automatically renders **all images in this project folder** (png/jpg/jpeg/webp/gif).  
-If you don’t want an image to show, move it out of the folder or rename it with a prefix like `_ignore-`.
-
 {% assign parts = page.path | split:'/' %}
 {% assign project_dir = '/' | append: parts[0] | append:'/' | append: parts[1] | append:'/' %}
 {% assign exts = ".png,.jpg,.jpeg,.webp,.gif" | split: "," %}
