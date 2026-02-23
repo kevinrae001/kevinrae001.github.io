@@ -5,9 +5,10 @@ description: "Autonomous, self-contained station that uses drones, cameras, and 
 skills:
   - SolidWorks (system-level ownership)
   - ASME Y14 drawings + GD&T
-  - Sheet metal DFM/DFA
+  - DFM/DFA
   - Structural analysis / FEA
-  - Mechanism design + kinematics
+  - Mechanism design
+  - Kinematics
   - Prototyping + field-test support
 main-image: /AEMS03.jpg
 ---
@@ -34,7 +35,7 @@ The station is designed to operate unattended in remote locations and run 24/7 y
 
 Key constraints and design drivers:
 
-- **Cold weather operation:** down to approximately **-40°C**
+- **Cold weather operation:** down to approximately 40°C
 - **Energy-limited environment:** minimize steady-state loads and avoid wasting energy on actuation
 - **Weatherproofing:** precipitation, freeze/thaw cycles, wind-driven snow/rain, and ingress protection
 - **Serviceability:** field access for maintenance, repairs, and component replacement
@@ -45,9 +46,9 @@ Key constraints and design drivers:
 
 ### Solar tracking mast + array
 
-- Custom **3-stage telescoping mast** (extends to roughly **2×** stowed height)
-- Supports a **~1.8 kW** solar array with high wind survivability (target **~80 km/h** winds)
-- Enables **360° rotation** and high tilt range (up to **~80°**) to support sun tracking
+- Custom 3-stage telescoping mast (extends to roughly 2x stowed height)
+- Supports a ~1.8 kW solar array with high wind survivability (target ~80 km/h winds)
+- Enables 360° rotation and high tilt range (up to ~80°) to support sun tracking
 - Structural checks performed on mast + array interfaces and supporting structure
 
 ### Doors, access panels, and mechanisms
@@ -68,7 +69,7 @@ Key constraints and design drivers:
 
 At a high level, I supported validation with simulation-driven checks, including:
 
-- **FEA** on key structures (walls, array, mast support structure, skid/frame) to verify safety factors under expected loads
+- FEA on key structures (walls, array, mast support structure, skid/frame) to verify safety factors under expected loads
 - Structural sensitivity around attachment points, interfaces, and high-stress transitions
 - Thermal/heat-retention considerations to reduce generator runtime and improve winter performance (high level only)
 
