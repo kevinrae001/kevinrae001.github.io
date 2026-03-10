@@ -19,10 +19,10 @@ main-image: /banner.png
 
 The goal was to build an elegant, readable word clock while avoiding common pitfalls:
 
-- **Light bleeding** between words
-- **Messy wiring** and bulky electronics
-- **Too many driver chips** / wasted MCU I/O
-- **Unnecessarily high cost**
+- Light bleeding between words
+- Messy wiring and bulky electronics
+- Too many driver chips / wasted MCU I/O
+- Unnecessarily high cost
 
 ## How it works
 
