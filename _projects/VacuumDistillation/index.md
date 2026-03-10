@@ -51,7 +51,7 @@ This project was a full build of a vacuum distillation system intended to lower 
 - Considered operability constraints (startup, steady operation, shutdown, draining/cleaning)
 
 ### 2) Column design (stage estimation)
-- Used the **Fenske equation** as an initial sizing tool to estimate theoretical stage requirements and guide column configuration decisions
+- Used the Fenske equation as an initial sizing tool to estimate theoretical stage requirements and guide column configuration decisions
 - Translated stage requirements into a practical column build (packing/plates, height, mounting, insulation, serviceability)
 
 ![Distillation schematic (context for column sizing)]({{ img }}fenske.png)
@@ -71,5 +71,5 @@ This project was a full build of a vacuum distillation system intended to lower 
 
 ## Notes / lessons learned
 - Vacuum systems reward obsessive attention to sealing, routing, and service access
-- Structural stiffness and alignment matter more than they look like they should—especially with tall columns
+- Structural stiffness and alignment matter more than they look like they should, especially with tall columns
 - Designing for cleaning/draining early saves major rework later
