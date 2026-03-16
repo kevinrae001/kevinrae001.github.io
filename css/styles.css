@@ -227,7 +227,7 @@ nav .mobile-nav {
 }
 
 .hero-section .headshot img {
-    width: 400px;
+    width: 120px;
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 50%;
