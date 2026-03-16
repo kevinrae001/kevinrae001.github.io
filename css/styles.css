@@ -227,7 +227,7 @@ nav .mobile-nav {
 }
 
 .hero-section .headshot img {
-    width: 120px;
+    width: 200px;
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 50%;
@@ -752,7 +752,7 @@ footer p {
         text-align: center;
     }
     .hero-section .headshot img{
-        width: 120px;
+        width: 200px;
         justify-content: center
     }
 
@@ -916,7 +916,7 @@ footer p {
         padding: 5px;
     }
    .hero-section .headshot img{
-        width: 120px;
+        width: 200px;
         justify-content: center
     }
     
