@@ -6,11 +6,11 @@ description: >
   temperature-sensitive liquids under reduced pressure—taking the system from process sizing through
   mechanical design, fabrication support, and commissioning.
 skills:
-  - Mechanical design (SolidWorks)
-  - ASME Y14 / GD&T
+  - Mechanical design
+  - SolidWorks
   - Mass & energy balances
   - Distillation theory (Fenske)
-  - Fabrication support (welding / assembly)
+  - Fabrication support for welding and assembly
   - Test & commissioning
   - MATLAB
 main-image: /banner.jpg
@@ -20,12 +20,11 @@ main-image: /banner.jpg
 {% assign img = "/" | append: project_folder | append: "/" | relative_url %}
 
 ## Summary
-This project was a full build of a vacuum distillation system intended to lower boiling temperatures and protect product quality by operating under reduced pressure. I owned the end-to-end mechanical design, supported fabrication/assembly, and brought the unit through commissioning in a working industrial environment.
+This project involved designing a general-purpose vacuum distillation system intended to lower boiling temperatures and protect product quality by operating under reduced pressure. I owned the end-to-end mechanical design, supported fabrication and assembly, and brought the unit through commissioning in a working industrial environment.
 
 **Core outcomes**
-- Reduced boiling temperature via vacuum operation to protect temperature-sensitive product
+- Reduced boiling temperature using a vacuum to protect temperature-sensitive product
 - Built a serviceable, stable mechanical assembly (alignment, access, routing, drainability)
-- Communicated process intent clearly (schematics + labeled build) to align stakeholders
 
 ## System overview
 
@@ -63,10 +62,9 @@ Reference schematic used to communicate column concepts and flow paths.
 ## What I delivered
 - 3D CAD assembly and key part models
 - Detailed drawing package for fabrication and assembly
-- Bill of materials (BOM) and build notes
-- Commissioning support (fit-up, alignment, leak checks, and operational shakedown)
+- Bill of materials and build notes
+- Commissioning support
 
 ## Notes / lessons learned
 - Vacuum systems reward obsessive attention to sealing, routing, and service access
-- Structural stiffness and alignment matter more than they look like they should, especially with tall columns
 - Designing for cleaning/draining early saves major rework later
