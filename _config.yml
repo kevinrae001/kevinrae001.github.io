@@ -47,7 +47,8 @@ skills:
   - category: CAD/Design
     tools:
     - SolidWorks
-    - Creo
+    - 3DEXPERIENCE
+    - CATIA
     - AutoCAD
     - Fusion 360 (Autodesk)
     - GD&T ASME Y14
@@ -61,7 +62,7 @@ skills:
     - Waterject Cutting
     - Soldering
     - Welding / Fabricating
-    - Arduino / Raspberry Pi / ESP32 
+    - Arduino / Raspberry Pi / ESP32 / STM32 
   - category: Analysis
     tools:
     - MATLAB
