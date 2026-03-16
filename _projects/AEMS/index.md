@@ -23,7 +23,7 @@ main-image: /AEMS03.jpg
 
 ## My role (NDA)
 
-I was the lead mechanical engineer on this project. Because of an NDA, I’m limited in how much I can share publicly, but my scope included:
+I was the lead mechanical engineer on this project. My scope included:
 
 - Turning stakeholder requirements into mechanical architectures and manufacturable designs
 - Owning the SolidWorks models for assemblies/parts
