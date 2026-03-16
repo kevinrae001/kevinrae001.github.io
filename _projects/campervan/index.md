@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Campervan Conversion
-description: Campervan build focused on reliability, serviceability, and clean packaging.
+description: Campervan build focused on livability and reliability.
 skills:
   - Mechanical design
-  - CAD (SolidWorks)
+  - SolidWorks
   - Fabrication & assembly
-  - Electrical (48V DC) wiring
+  - Electrical design
   - Soldering
   - CNC
   - Woodworking
@@ -15,7 +15,7 @@ main-image: /banner.jpg
 
 ## Summary
 
-This project documents a campervan conversion build with an emphasis on robust mechanical design, clean integration, and practical service access.
+This project documents a campervan conversion build with an emphasis on livability and reliability.
 
 **Quick facts :**
 - **Vehicle:** 1999 GMC Savana 3500 extended
@@ -25,15 +25,6 @@ This project documents a campervan conversion build with an emphasis on robust m
 
 ---
 
-## Goals and requirements
-
-- **Safety:** secure mounting, protected wiring, proper fusing, strain relief, and ventilation where required  
-- **Serviceability:** accessible fasteners, removable panels, modular subassemblies  
-- **Packaging:** efficient use of volume, sensible cable routing, minimized rattles  
-- **Reliability:** vibration-aware design, robust joints, appropriate materials/finishes  
-- **Documentation:** BOM, wiring map, assembly notes, and revision-friendly structure
-
----
 
 ## Build gallery
 
