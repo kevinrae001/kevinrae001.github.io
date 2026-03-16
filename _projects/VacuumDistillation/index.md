@@ -65,6 +65,6 @@ This project involved designing a general-purpose vacuum distillation system int
 - Bill of materials and build notes
 - Commissioning support
 
-## Notes / lessons learned
+## Lessons learned
 - Vacuum systems reward obsessive attention to sealing, routing, and service access
-- Designing for cleaning/draining early saves major rework later
+- Designing for cleaning and draining early saves major rework later
