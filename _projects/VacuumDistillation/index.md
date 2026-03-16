@@ -35,9 +35,11 @@ This project involved designing a general-purpose vacuum distillation system int
 - **Structural frame:** supports the system, provides access and mounting points, and keeps alignment under load
 
 ![Labeled overview of the build]({{ img }}Vac_dis_labels.png)
+
 Labeled build photo: kettle, mixer, column, and frame.
 
 ![Installed unit showing access and structure]({{ img }}VacDistillation2.jpg)
+
 Installed unit in the work area (structure, access, and routing).
 
 ## Design approach
@@ -52,6 +54,7 @@ Installed unit in the work area (structure, access, and routing).
 - Translated stage requirements into a practical column build (packing/plates, height, mounting, insulation, serviceability)
 
 ![Distillation schematic (context for column sizing)]({{ img }}fenske.png)
+
 Reference schematic used to communicate column concepts and flow paths.
 
 ### 3) Mechanical design and buildability
