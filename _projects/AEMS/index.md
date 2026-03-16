@@ -21,7 +21,7 @@ main-image: /AEMS03.jpg
 
 ![AEMS deployed in snow]({{ img }}AEMS03.jpg)
 
-## My role (NDA)
+## My role
 
 I was the lead mechanical engineer on this project. My scope included:
 
