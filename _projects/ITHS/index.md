@@ -8,7 +8,9 @@ skills:
   - Instrumentation
   - MATLAB
   - Simulink
-  - C / C++ / C#
+  - C
+  - C++
+  - C#
   - PFD / P&ID
 main-image: /ISTS_panoramic.jpeg
 ---
