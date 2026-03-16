@@ -34,11 +34,11 @@ This project involved designing a general-purpose vacuum distillation system int
 - **Distillation column:** separation section mounted to a structural frame
 - **Structural frame:** supports the system, provides access and mounting points, and keeps alignment under load
 
-![Labeled overview of the build]({{ img }}Vac_dis_labels.png).
-Labeled build photo: kettle, mixer, column, and frame.
+![Labeled overview of the build]({{ img }}Vac_dis_labels.png)
 
-![Installed unit showing access and structure]({{ img }}VacDistillation2.jpg).
-Installed unit in the work area (structure, access, and routing).
+
+![Installed unit showing access and structure]({{ img }}VacDistillation2.jpg)
+
 
 ## Design approach
 
@@ -51,8 +51,8 @@ Installed unit in the work area (structure, access, and routing).
 - Used the Fenske equation as an initial sizing tool to estimate theoretical stage requirements and guide column configuration decisions
 - Translated stage requirements into a practical column build (packing/plates, height, mounting, insulation, serviceability)
 
-![Distillation schematic (context for column sizing)]({{ img }}fenske.png).
-Reference schematic used to communicate column concepts and flow paths.
+![Distillation schematic (context for column sizing)]({{ img }}fenske.png)
+
 
 ### 3) Mechanical design and buildability
 - Structured the assembly for shop fabrication and field integration (mounting strategy, access points, and routing)
