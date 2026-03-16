@@ -43,7 +43,7 @@ Key constraints and design drivers:
 - **Weatherproofing:** precipitation, freeze/thaw cycles, wind-driven snow/rain, and ingress protection
 - **Serviceability:** field access for maintenance, repairs, and component replacement
 
-![AEMS in the field (solar array deployed)]({{ img }}AEMS04.jpg)
+{% include image-gallery.html images="AEMS04.jpg" height="400" %}
 
 ## Mechanical highlights (high-level)
 
