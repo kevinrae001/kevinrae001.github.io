@@ -28,6 +28,7 @@ This project documents a campervan conversion build with an emphasis on livabili
 
 ## Build gallery
 
+
 {% assign parts = page.path | split:'/' %}
 {% assign project_dir = '/' | append: parts[0] | append:'/' | append: parts[1] | append:'/' %}
 {% assign exts = ".png,.jpg,.jpeg,.webp,.gif" | split: "," %}
