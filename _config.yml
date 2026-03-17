@@ -47,13 +47,12 @@ skills:
   - category: CAD/Design
     tools:
     - SolidWorks
-    - 3DEXPERIENCE
-    - CATIA
+    - Creo
     - AutoCAD
-    - Fusion 360 (Autodesk)
-    - GD&T ASME Y14
+    - GD&T ASME Y14.5
     - DFM / DFA
     - SolidWorks PDM
+    - 3DX
   - category: Prototyping
     tools:
     - 3D Printing (FMD, SLA)
